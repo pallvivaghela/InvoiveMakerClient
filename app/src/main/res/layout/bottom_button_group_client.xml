@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:background="@color/bg_color"
+    android:padding="@dimen/margin_1"
+    android:weightSum="2">
+
+    <TextView
+        android:id="@+id/import_from_contact"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_margin="@dimen/margin_5"
+        android:layout_weight="1"
+        android:background="@drawable/bg_border"
+        android:gravity="center"
+        android:text="@string/import_from_contact"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/client_report"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        android:layout_margin="@dimen/margin_5"
+        android:layout_weight="0.5"
+        android:background="@drawable/bg_border"
+        android:backgroundTint="@color/colorAccent"
+        android:gravity="center"
+        android:text="@string/reports_text"
+        android:textColor="@color/white"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/save_client"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginVertical="@dimen/margin_5"
+        android:layout_marginStart="@dimen/margin_1"
+        android:layout_marginTop="@dimen/margin_5"
+        android:layout_marginEnd="@dimen/margin_5"
+        android:layout_marginBottom="@dimen/margin_5"
+        android:layout_weight="1"
+        android:background="@drawable/bg_border"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:gravity="center"
+        android:text="@string/save"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/delete_client"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginVertical="@dimen/margin_5"
+        android:layout_marginStart="@dimen/margin_1"
+        android:layout_marginTop="@dimen/margin_5"
+        android:layout_marginBottom="@dimen/margin_5"
+        android:layout_weight="0.5"
+        android:background="@drawable/bg_border"
+        android:backgroundTint="@color/delete_color_bg"
+        android:gravity="center"
+        android:text="@string/delete_text"
+        android:textColor="@color/white"
+        android:visibility="gone" />
+</LinearLayout>

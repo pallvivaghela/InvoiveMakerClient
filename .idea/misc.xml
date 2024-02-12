@@ -1,0 +1,59 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/college/Rajkot Project Submission/Invoive Maker Client/app/src/main/res/drawable-v24/ic_search_delete.xml" value="0.1165" />
+        <entry key="..\:/college/Rajkot Project Submission/Invoive Maker Client/app/src/main/res/drawable/bg_cycle_5_blue_2d9bff.xml" value="0.1315" />
+        <entry key="..\:/college/Rajkot Project Submission/Invoive Maker Client/app/src/main/res/drawable/bg_rectangle_corners_4_blue_3586ff.xml" value="0.1315" />
+        <entry key="..\:/college/Rajkot Project Submission/Invoive Maker Client/app/src/main/res/drawable/bg_rectangle_corners_4_white_ffffff_stroke_1_blue_3586ff.xml" value="0.1315" />
+        <entry key="..\:/college/Rajkot Project Submission/Invoive Maker Client/app/src/main/res/drawable/gradient_spinner.xml" value="0.135" />
+        <entry key="..\:/college/Rajkot Project Submission/Invoive Maker Client/app/src/main/res/drawable/ic_back_2.xml" value="0.1315" />
+        <entry key="..\:/college/Rajkot Project Submission/Invoive Maker Client/app/src/main/res/drawable/ic_down_detail.xml" value="0.1315" />
+        <entry key="..\:/college/Rajkot Project Submission/Invoive Maker Client/app/src/main/res/drawable/ic_main_search.xml" value="0.1165" />
+        <entry key="..\:/college/Rajkot Project Submission/Invoive Maker Client/app/src/main/res/drawable/ic_search_delete.xml" value="0.1165" />
+        <entry key="..\:/college/Rajkot Project Submission/Invoive Maker Client/app/src/main/res/layout/activity_add_client.xml" value="0.2" />
+        <entry key="..\:/college/Rajkot Project Submission/Invoive Maker Client/app/src/main/res/layout/activity_add_item.xml" value="0.2" />
+        <entry key="..\:/college/Rajkot Project Submission/Invoive Maker Client/app/src/main/res/layout/activity_add_payment.xml" value="0.2" />
+        <entry key="..\:/college/Rajkot Project Submission/Invoive Maker Client/app/src/main/res/layout/activity_business_contact.xml" value="0.176" />
+        <entry key="..\:/college/Rajkot Project Submission/Invoive Maker Client/app/src/main/res/layout/activity_business_details.xml" value="0.264" />
+        <entry key="..\:/college/Rajkot Project Submission/Invoive Maker Client/app/src/main/res/layout/activity_discount.xml" value="0.136" />
+        <entry key="..\:/college/Rajkot Project Submission/Invoive Maker Client/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/college/Rajkot Project Submission/Invoive Maker Client/app/src/main/res/layout/activity_my_item.xml" value="0.4" />
+        <entry key="..\:/college/Rajkot Project Submission/Invoive Maker Client/app/src/main/res/layout/activity_payment.xml" value="0.16799999999999998" />
+        <entry key="..\:/college/Rajkot Project Submission/Invoive Maker Client/app/src/main/res/layout/activity_preview.xml" value="0.16927083333333334" />
+        <entry key="..\:/college/Rajkot Project Submission/Invoive Maker Client/app/src/main/res/layout/activity_reports.xml" value="0.23802083333333332" />
+        <entry key="..\:/college/Rajkot Project Submission/Invoive Maker Client/app/src/main/res/layout/activity_search_item.xml" value="0.1" />
+        <entry key="..\:/college/Rajkot Project Submission/Invoive Maker Client/app/src/main/res/layout/activity_shipping_info.xml" value="0.4" />
+        <entry key="..\:/college/Rajkot Project Submission/Invoive Maker Client/app/src/main/res/layout/activity_splash.xml" value="0.23802083333333332" />
+        <entry key="..\:/college/Rajkot Project Submission/Invoive Maker Client/app/src/main/res/layout/add_item_layout.xml" value="0.23802083333333332" />
+        <entry key="..\:/college/Rajkot Project Submission/Invoive Maker Client/app/src/main/res/layout/client_fragment_layout.xml" value="0.1" />
+        <entry key="..\:/college/Rajkot Project Submission/Invoive Maker Client/app/src/main/res/layout/dialog_choice_year.xml" value="0.23802083333333332" />
+        <entry key="..\:/college/Rajkot Project Submission/Invoive Maker Client/app/src/main/res/layout/dialog_reports_select_client.xml" value="0.23802083333333332" />
+        <entry key="..\:/college/Rajkot Project Submission/Invoive Maker Client/app/src/main/res/layout/edit_invoice_layout.xml" value="0.2" />
+        <entry key="..\:/college/Rajkot Project Submission/Invoive Maker Client/app/src/main/res/layout/fragment_estimate.xml" value="0.23802083333333332" />
+        <entry key="..\:/college/Rajkot Project Submission/Invoive Maker Client/app/src/main/res/layout/fragment_invoice_line_chart.xml" value="0.2" />
+        <entry key="..\:/college/Rajkot Project Submission/Invoive Maker Client/app/src/main/res/layout/fragment_reports_estimates.xml" value="0.23802083333333332" />
+        <entry key="..\:/college/Rajkot Project Submission/Invoive Maker Client/app/src/main/res/layout/fragment_reports_invoice.xml" value="0.136" />
+        <entry key="..\:/college/Rajkot Project Submission/Invoive Maker Client/app/src/main/res/layout/invoice_fragment_layout.xml" value="0.2" />
+        <entry key="..\:/college/Rajkot Project Submission/Invoive Maker Client/app/src/main/res/layout/item_reports_search_dialog_client_item.xml" value="0.23802083333333332" />
+        <entry key="..\:/college/Rajkot Project Submission/Invoive Maker Client/app/src/main/res/layout/line_chart_show_value.xml" value="0.23802083333333332" />
+        <entry key="..\:/college/Rajkot Project Submission/Invoive Maker Client/app/src/main/res/layout/lock_screen.xml" value="0.2" />
+        <entry key="..\:/college/Rajkot Project Submission/Invoive Maker Client/app/src/main/res/layout/nav_header.xml" value="0.2" />
+        <entry key="..\:/college/Rajkot Project Submission/Invoive Maker Client/app/src/main/res/layout/report_fragment_layout.xml" value="0.264" />
+        <entry key="..\:/college/Rajkot Project Submission/Invoive Maker Client/app/src/main/res/layout/settings_fragment_layout.xml" value="0.136" />
+        <entry key="..\:/college/Rajkot Project Submission/Invoive Maker Client/app/src/main/res/layout/subtotal_layout.xml" value="0.23802083333333332" />
+        <entry key="..\:/college/Rajkot Project Submission/Invoive Maker Client/app/src/main/res/menu/activity_main_drawer.xml" value="0.23802083333333332" />
+        <entry key="..\:/college/Rajkot Project Submission/Invoive Maker Client/app/src/main/res/menu/preview_menu.xml" value="0.22037037037037038" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="SuppressKotlinCodeStyleNotification">
+    <option name="disableForAll" value="true" />
+  </component>
+</project>

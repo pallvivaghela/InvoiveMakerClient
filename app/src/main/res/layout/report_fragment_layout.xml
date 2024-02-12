@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/main_bg"
+        android:backgroundTint="@color/white">
+
+        <Spinner
+            android:id="@+id/yearly_report"
+            style="@style/spinner_style"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="@dimen/margin_5"
+            android:layout_marginLeft="@dimen/margin_5"
+            android:layout_marginTop="@dimen/margin_5"
+            android:layout_marginEnd="@dimen/margin_5"
+            android:layout_marginRight="@dimen/margin_5"
+            android:focusable="false"
+            android:focusableInTouchMode="false" />
+
+        <RelativeLayout
+            android:id="@+id/rl_btn"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/yearly_report"
+            android:layout_marginHorizontal="@dimen/margin_10"
+            android:layout_marginLeft="@dimen/margin_10"
+            android:layout_marginRight="@dimen/margin_10"
+            android:layout_marginBottom="@dimen/margin_5"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/paid_1"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="@dimen/margin_5"
+                android:layout_marginEnd="@dimen/margin_10"
+                android:background="@drawable/bg_border"
+                android:gravity="center"
+                android:text="@string/paid"
+                android:textColor="@color/black"
+                android:visibility="gone" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/paid_2"
+                android:layout_width="100dp"
+                android:layout_height="@dimen/margin_40"
+                android:layout_marginVertical="@dimen/margin_5"
+                android:layout_marginTop="@dimen/margin_5"
+                android:layout_marginEnd="@dimen/margin_10"
+                android:layout_marginBottom="@dimen/margin_5"
+                android:layout_toStartOf="@+id/client_1"
+                app:cardBackgroundColor="@color/blue"
+                app:cardCornerRadius="@dimen/margin_5"
+                app:cardElevation="@dimen/margin_5">
+
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="@string/paid"
+                    android:textColor="@color/white" />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/client_1"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="@dimen/margin_5"
+                android:layout_marginEnd="@dimen/margin_10"
+                android:layout_toEndOf="@+id/paid_1"
+                android:background="@drawable/bg_border"
+                android:gravity="center"
+                android:text="@string/clients"
+                android:textColor="@color/black" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/client_2"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_5"
+                android:layout_marginEnd="@dimen/margin_10"
+                android:layout_toEndOf="@+id/paid_2"
+                android:visibility="gone"
+                app:cardBackgroundColor="@color/blue"
+                app:cardCornerRadius="@dimen/margin_5"
+                app:cardElevation="@dimen/margin_5">
+
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="@string/clients"
+                    android:textColor="@color/white" />
+            </androidx.cardview.widget.CardView>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/list_title"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_below="@+id/rl_btn"
+            android:layout_marginStart="@dimen/margin_5"
+            android:layout_marginTop="@dimen/margin_5"
+            android:layout_marginEnd="@dimen/margin_5"
+            android:background="@drawable/bg_border"
+            android:backgroundTint="@color/bg_color"
+            android:orientation="horizontal"
+            android:weightSum="0.9">
+
+            <TextView
+                android:id="@+id/month_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:padding="@dimen/margin_5"
+                android:text="Month Name"
+                android:textColor="@color/colorPrimaryDark"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/clients_number"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="0.2"
+                android:gravity="center"
+                android:padding="@dimen/margin_5"
+                android:text="@string/clients"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/text_size_14" />
+
+            <TextView
+                android:id="@+id/invoice_number"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="0.2"
+                android:gravity="end"
+                android:padding="@dimen/margin_5"
+                android:text="@string/invoices"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/text_size_14" />
+
+            <TextView
+                android:id="@+id/paid_amount"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginEnd="@dimen/margin_5"
+                android:layout_weight="0.2"
+                android:gravity="end"
+                android:padding="@dimen/margin_5"
+                android:text="@string/paid"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/text_size_14" />
+        </LinearLayout>
+
+        <com.billcreator.invoice.invoicegenerator.invoicemaker.utils.NonScrollListView
+            android:id="@+id/list_report"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/list_title"
+            android:layout_margin="@dimen/margin_15"
+            android:divider="@null"
+            android:dividerHeight="5dp" />
+    </RelativeLayout>
+</ScrollView>

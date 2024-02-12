@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/my_item_searchview1"
+        style="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_10"
+        android:layout_marginTop="@dimen/margin_10"
+        android:layout_marginEnd="@dimen/margin_10"
+        android:layout_marginBottom="@dimen/margin_10"
+        android:background="@drawable/text_box_bg"
+        android:backgroundTint="@color/searchbar"
+        android:drawableEnd="@drawable/ic_search"
+        android:elevation="@dimen/margin_10"
+        android:hint="@string/search"
+        android:inputType="text"
+        android:maxLines="1"
+        android:padding="@dimen/margin_10"
+        android:singleLine="true"
+        android:textColor="@android:color/black" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lt_no_data"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:padding="@dimen/margin_10"
+        android:visibility="gone"
+        app:lottie_autoPlay="true"
+        app:lottie_fileName="no_data.json"
+        app:lottie_loop="true" />
+
+    <TextView
+        android:id="@+id/no_item_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lt_no_data"
+        android:gravity="center"
+        android:padding="@dimen/margin_5"
+        android:paddingTop="@dimen/margin_5"
+        android:text="@string/no_item_message"
+        android:textSize="@dimen/text_size_16"
+        android:visibility="gone" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/bg_main"
+        android:visibility="gone" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/my_items_rv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/my_item_searchview1"
+        android:padding="1dp" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/add_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        app:backgroundTint="@color/blue"
+        app:srcCompat="@drawable/ic_add_white_24dp" />
+</RelativeLayout>

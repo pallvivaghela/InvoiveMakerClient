@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/margin_1"
+    android:layout_marginBottom="@dimen/margin_1"
+    android:foreground="?attr/selectableItemBackground"
+    card_view:cardCornerRadius="@dimen/margin_2"
+    card_view:cardElevation="@dimen/margin_0">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/main_invoice_bg"
+        android:orientation="horizontal"
+        android:padding="@dimen/margin_10"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/payment_date"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="01/01/01"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/payment_amount"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.4"
+            android:gravity="right"
+            android:text="$0.00"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/payment_amount"
+            android:layout_weight="0.1"
+            android:src="@drawable/ic_chevron_right_black_24dp" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

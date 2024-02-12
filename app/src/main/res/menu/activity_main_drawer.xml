@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_invoice"
+        android:icon="@drawable/nav_invoice"
+        android:title="@string/invoice_text" />
+    <item
+        android:id="@+id/nav_estimate"
+        android:icon="@drawable/nav_estimate"
+        android:title="@string/estimates_text" />
+    <item
+        android:id="@+id/nav_report"
+        android:icon="@drawable/nav_report"
+        android:title="@string/reports_text" />
+    <item
+        android:id="@+id/nav_item"
+        android:icon="@drawable/nav_item"
+        android:title="@string/my_items" />
+    <item
+        android:id="@+id/nav_client"
+        android:icon="@drawable/nav_clients"
+        android:title="@string/clients_text" />
+    <item
+        android:id="@+id/nav_settings"
+        android:icon="@drawable/ic_setting"
+        android:title="@string/settings_text" />
+    <item android:title="Communication">
+        <menu >
+            <item
+                android:id="@+id/rateus"
+                android:icon="@drawable/ic_rate"
+                android:visible="false"
+                android:title="@string/rateus" />
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_share"
+                android:visible="false"
+                android:title="@string/share_app" />
+            <item
+                android:id="@+id/nav_feedback"
+                android:icon="@drawable/ic_feedback"
+                android:visible="false"
+                android:title="@string/feedback" />
+            <item
+                android:id="@+id/moreapp"
+                android:icon="@drawable/ic_more_apps"
+                android:visible="false"
+                android:title="@string/more" />
+            <item
+                android:id="@+id/nav_policy"
+                android:icon="@drawable/ic_policy"
+                android:visible="false"
+                android:title="@string/policy" />
+            <item
+                android:id="@+id/nav_exit"
+                android:icon="@drawable/ic_exit"
+                android:visible="false"
+                android:title="@string/exit" />
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/item_layout" android:background="@drawable/main_invoice_bg" android:padding="@dimen/margin_5" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_5" android:foreground="?attr/selectableItemBackground">
+    <TextView android:textSize="@dimen/margin_16" android:textColor="@color/black" android:id="@+id/image_url" android:paddingTop="@dimen/margin_10" android:paddingBottom="@dimen/margin_10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Pen"/>
+</RelativeLayout>

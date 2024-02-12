@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="currency_format_titles">
+        <item>Albania</item>
+        <item>Afghanistan</item>
+        <item>Argentina</item>
+        <item>Aruba</item>
+        <item>Australia</item>
+        <item>Azerbaijan</item>
+        <item>Bahamas</item>
+        <item>Barbados</item>
+        <item>Belarus</item>
+        <item>Belize</item>
+        <item>Bermuda</item>
+        <item>Bolivia</item>
+        <item>Bosnia and Herzegovina Convertible</item>
+        <item>Botswana</item>
+        <item>Bulgaria</item>
+        <item>Brazil</item>
+        <item>Brunei Darussalam</item>
+        <item>Cambodia</item>
+        <item>Canada</item>
+        <item>Cayman Islands</item>
+        <item>Chile</item>
+        <item>China</item>
+        <item>Colombia</item>
+        <item>Costa Rica</item>
+        <item>Croatia</item>
+        <item>Cuba</item>
+        <item>Czech Republic</item>
+        <item>Denmark</item>
+        <item>Dominican Republic</item>
+        <item>East Caribbean</item>
+        <item>Egypt</item>
+        <item>El Salvador</item>
+        <item>Euro Member</item>
+        <item>Falkland Islands</item>
+        <item>Fiji</item>
+        <item>Ghana</item>
+        <item>Gibraltar</item>
+        <item>Guatemala</item>
+        <item>Guernsey</item>
+        <item>Guyana</item>
+        <item>Honduras</item>
+        <item>Hong Kong</item>
+        <item>Hungary</item>
+        <item>Iceland</item>
+        <item>India</item>
+        <item>Indonesia</item>
+        <item>Iran</item>
+        <item>Isle of Man</item>
+        <item>Israel</item>
+        <item>Jamaica</item>
+        <item>Japan</item>
+        <item>Jersey</item>
+        <item>Kazakhstan</item>
+        <item>Korea (North)</item>
+        <item>Korea (South)</item>
+        <item>Kyrgyzstan</item>
+        <item>Laos</item>
+        <item>Lebanon</item>
+        <item>Liberia</item>
+        <item>Macedonia</item>
+        <item>Malaysia</item>
+        <item>Mauritius</item>
+        <item>Mexico</item>
+        <item>Mongolia</item>
+        <item>Mozambique</item>
+        <item>Namibia</item>
+        <item>Nepal</item>
+        <item>Netherlands</item>
+        <item>New Zealand</item>
+        <item>Nicaragua</item>
+        <item>Nigeria</item>
+        <item>Norway</item>
+        <item>Oman</item>
+        <item>Pakistan</item>
+        <item>Panama</item>
+        <item>Paraguay</item>
+        <item>Peru</item>
+        <item>Philippines</item>
+        <item>Poland</item>
+        <item>Qatar</item>
+        <item>Romania</item>
+        <item>Russia</item>
+        <item>Saint Helena</item>
+        <item>Saudi Arabia</item>
+        <item>Serbia</item>
+        <item>Seychelles</item>
+        <item>Singapore</item>
+        <item>Solomon Islands</item>
+        <item>Somalia</item>
+        <item>South Africa</item>
+        <item>Sri Lanka</item>
+        <item>Sweden</item>
+        <item>Switzerland</item>
+        <item>Suriname</item>
+        <item>Syria</item>
+        <item>Taiwan</item>
+        <item>Thailand</item>
+        <item>Trinidad and Tobago</item>
+        <item>Turkey</item>
+        <item>Tuvalu</item>
+        <item>Ukraine</item>
+        <item>United Kingdom</item>
+        <item>United States</item>
+        <item>Uruguay</item>
+        <item>Uzbekistan</item>
+        <item>Venezuela</item>
+        <item>Viet Nam</item>
+        <item>Yemen</item>
+        <item>Zimbabwe</item>
+    </array>
+    <array name="currency_symbols">
+        <item>Lek</item>
+        <item>؋</item>
+        <item>$</item>
+        <item>ƒ</item>
+        <item>$</item>
+        <item>ман</item>
+        <item>$</item>
+        <item>$</item>
+        <item>Br</item>
+        <item>BZ$</item>
+        <item>$</item>
+        <item>$b</item>
+        <item>KM</item>
+        <item>P</item>
+        <item>лв</item>
+        <item>R$</item>
+        <item>$</item>
+        <item>៛</item>
+        <item>$</item>
+        <item>$</item>
+        <item>$</item>
+        <item>¥</item>
+        <item>$</item>
+        <item>₡</item>
+        <item>kn</item>
+        <item>₱</item>
+        <item>Kč</item>
+        <item>Kr</item>
+        <item>RD$</item>
+        <item>$</item>
+        <item>£</item>
+        <item>$</item>
+        <item>€</item>
+        <item>£</item>
+        <item>$</item>
+        <item>¢</item>
+        <item>£</item>
+        <item>Q</item>
+        <item>£</item>
+        <item>$</item>
+        <item>L</item>
+        <item>$</item>
+        <item>Ft</item>
+        <item>kr</item>
+        <item>₨</item>
+        <item>Rp</item>
+        <item>﷼</item>
+        <item>£</item>
+        <item>₪</item>
+        <item>J$</item>
+        <item>¥</item>
+        <item>£</item>
+        <item>лв</item>
+        <item>₩</item>
+        <item>₩</item>
+        <item>лв</item>
+        <item>₭</item>
+        <item>£</item>
+        <item>$</item>
+        <item>ден</item>
+        <item>RM</item>
+        <item>₨</item>
+        <item>$</item>
+        <item>₮</item>
+        <item>MT</item>
+        <item>$</item>
+        <item>₨</item>
+        <item>ƒ</item>
+        <item>$</item>
+        <item>C$</item>
+        <item>₦</item>
+        <item>kr</item>
+        <item>﷼</item>
+        <item>₨</item>
+        <item>B/.</item>
+        <item>Gs</item>
+        <item>S/.</item>
+        <item>₱</item>
+        <item>zł</item>
+        <item>﷼</item>
+        <item>lei</item>
+        <item>₽</item>
+        <item>£</item>
+        <item>﷼</item>
+        <item>Дин.</item>
+        <item>₨</item>
+        <item>$</item>
+        <item>$</item>
+        <item>S</item>
+        <item>R</item>
+        <item>₨</item>
+        <item>kr</item>
+        <item>CHF</item>
+        <item>$</item>
+        <item>£</item>
+        <item>NT$</item>
+        <item>฿</item>
+        <item>TT$</item>
+        <item>$</item>
+        <item>$</item>
+        <item>₴</item>
+        <item>£</item>
+        <item>$</item>
+        <item>$U</item>
+        <item>лв</item>
+        <item>Bs</item>
+        <item>₫</item>
+        <item>﷼</item>
+        <item>Z$</item>
+    </array>
+    <array name="date_format_titles">
+        <item>yyyy-MM-dd</item>
+        <item>dd-MM-yyyy</item>
+        <item>MM-dd-yyyy</item>
+        <item>yyyy/MM/dd</item>
+        <item>dd/MM/yyyy</item>
+        <item>MM/dd/yyyy</item>
+        <item>yyyy.MM.dd</item>
+        <item>dd.MM.yyyy</item>
+        <item>MM.dd.yyyy</item>
+        <item>MMM dd,yyyy</item>
+        <item>dd MMM yyyy</item>
+    </array>
+    <array name="discount_options">
+        <item>No discount</item>
+        <item>Discount per item</item>
+        <item>Percentage</item>
+        <item>Flat amount</item>
+    </array>
+    <array name="nav_item_activity_titles">
+        <item>Invoices</item>
+        <item>Estimates</item>
+        <item>Reports</item>
+        <item>Items</item>
+        <item>Clients</item>
+        <item>Settings</item>
+    </array>
+    <array name="tax_options">
+        <item>On the total (Recommended)</item>
+        <item>Deducted</item>
+        <item>Per item</item>
+        <item>None</item>
+    </array>
+</resources>

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/margin_5"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/discount_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_40"
+        android:layout_margin="@dimen/margin_5"
+        android:background="@drawable/et_bg_border"
+        android:elevation="@dimen/margin_5"
+        android:paddingTop="@dimen/margin_2"
+        android:paddingBottom="@dimen/margin_2">
+
+        <TextView
+            android:id="@+id/discount_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_toStartOf="@+id/invoice_discount"
+            android:paddingStart="@dimen/margin_10"
+            android:text="@string/discount"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/invoice_discount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="@dimen/margin_10"
+            android:gravity="end"
+            android:text="Rs0.00"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/shipping_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_40"
+        android:layout_margin="@dimen/margin_5"
+        android:background="@drawable/et_bg_border"
+        android:elevation="@dimen/margin_5"
+        android:paddingTop="@dimen/margin_2"
+        android:paddingBottom="@dimen/margin_2">
+
+        <TextView
+            android:id="@+id/shipping_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_toStartOf="@+id/shipping_amount"
+            android:paddingStart="@dimen/margin_10"
+            android:text="@string/shipping"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/shipping_amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="@dimen/margin_10"
+            android:gravity="end"
+            android:text="Rs0.00"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/tax_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_40"
+        android:layout_margin="@dimen/margin_5"
+        android:background="@drawable/et_bg_border"
+        android:elevation="@dimen/margin_5"
+        android:paddingTop="@dimen/margin_2"
+        android:paddingBottom="@dimen/margin_2">
+
+        <TextView
+            android:id="@+id/tax_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_toStartOf="@+id/tax_amount"
+            android:paddingStart="@dimen/margin_10"
+            android:text="@string/tax"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tax_amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="@dimen/margin_10"
+            android:gravity="end"
+            android:text="Rs0.00"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/total_amount_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_40"
+        android:layout_margin="@dimen/margin_5"
+        android:background="@drawable/et_bg_border"
+        android:elevation="@dimen/margin_5"
+        android:paddingTop="@dimen/margin_2"
+        android:paddingBottom="@dimen/margin_2">
+
+        <TextView
+            android:id="@+id/total_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_toStartOf="@+id/total_amount"
+            android:paddingStart="@dimen/margin_10"
+            android:text="@string/total"
+            android:textColor="@color/blue"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/total_amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="@dimen/margin_10"
+            android:gravity="end"
+            android:text="Rs0.00"
+            android:textColor="@color/blue"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/paid_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_40"
+        android:layout_margin="@dimen/margin_5"
+        android:background="@drawable/et_bg_border"
+        android:elevation="@dimen/margin_5"
+        android:paddingTop="@dimen/margin_2"
+        android:paddingBottom="@dimen/margin_2">
+
+        <TextView
+            android:id="@+id/paid_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_toStartOf="@+id/paid_amount"
+            android:paddingStart="@dimen/margin_10"
+            android:text="@string/paid"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/paid_amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="@dimen/margin_10"
+            android:gravity="end"
+            android:text="Rs0.00"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+    </RelativeLayout>
+</LinearLayout>

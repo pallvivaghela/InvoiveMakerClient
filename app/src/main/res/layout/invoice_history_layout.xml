@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_bg">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_10"
+        android:layout_marginTop="@dimen/margin_10"
+        android:layout_marginRight="@dimen/margin_10"
+        android:foreground="?attr/selectableItemBackground"
+        card_view:cardCornerRadius="@dimen/margin_10"
+        card_view:cardElevation="@dimen/margin_0">
+
+        <LinearLayout
+            android:id="@+id/history_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/main_invoice_bg"
+            android:orientation="vertical"
+            android:padding="@dimen/margin_10"
+            android:visibility="visible">
+
+            <TextView
+                android:id="@+id/created_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Created"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/creation_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2018/1/6 3:19:47 PM" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <RelativeLayout
+        android:id="@+id/native_ad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/card_view"
+        android:layout_margin="@dimen/margin_10" />
+</RelativeLayout>

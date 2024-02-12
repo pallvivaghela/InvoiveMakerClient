@@ -1,0 +1,3 @@
+
+rootProject.name = "Invoive Maker Client"
+include ':app'

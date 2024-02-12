@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/send_email" android:visible="false" android:title="@string/email"/>
+    <item android:id="@+id/duplicate" android:title="Duplicate"/>
+    <item android:id="@+id/delete_invoice" android:title="@string/delete_text"/>
+    <item android:id="@+id/mark_paid" android:title="@string/mark_paid_text"/>
+    <item android:id="@+id/make_invoice" android:visible="false" android:title="@string/make_invoice_text"/>
+</menu>

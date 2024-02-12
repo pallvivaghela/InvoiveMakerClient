@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:sign="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/app_bar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true">
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <RelativeLayout
+        android:id="@+id/signature_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <TextView
+            android:id="@+id/save_sign"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/margin_1"
+            android:background="@drawable/bg_border"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:gravity="center"
+            android:padding="@dimen/margin_20"
+            android:text="@string/ok"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/clear_sign"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/margin_1"
+            android:layout_toEndOf="@+id/save_sign"
+            android:background="@drawable/bg_border"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:gravity="center"
+            android:padding="@dimen/margin_20"
+            android:text="@string/clear"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/delete_sign"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/margin_1"
+            android:layout_toEndOf="@+id/clear_sign"
+            android:background="@drawable/bg_border"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:gravity="center"
+            android:padding="@dimen/margin_20"
+            android:text="@string/del"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/cancel_sign"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/margin_1"
+            android:layout_toEndOf="@+id/delete_sign"
+            android:background="@drawable/bg_border"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:gravity="center"
+            android:padding="@dimen/margin_20"
+            android:text="@string/cancel"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/signed_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/margin_1"
+            android:layout_toEndOf="@+id/cancel_sign"
+            android:background="@drawable/bg_border"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:gravity="center"
+            android:padding="@dimen/margin_20"
+            android:text="02/23/2018"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+
+    <com.kyanogen.signatureview.SignatureView
+        android:id="@+id/signature_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/signature_menu"
+        android:layout_below="@+id/app_bar_layout"
+        sign:backgroundColor="#ffffffff"
+        sign:enableSignature="true"
+        sign:penColor="#ff000000"
+        sign:penSize="5dp" />
+</RelativeLayout>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.CAMERA"
+        tools:ignore="PermissionImpliesUnsupportedChromeOsHardware" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <category android:name="android.intent.category.BROWSABLE" />
+            <data android:scheme="https" />
+        </intent>
+        <intent>
+            <action android:name="android.support.customtabs.action.CustomTabsService" />
+        </intent>
+    </queries>
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+    <application
+        android:name="com.billcreator.invoice.invoicegenerator.invoicemaker.AppCore"
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@drawable/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.billcreator.invoice.invoicegenerator.invoicemaker.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+        <activity
+            android:name="com.billcreator.invoice.invoicegenerator.invoicemaker.Activity.SplashActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.billcreator.invoice.invoicegenerator.invoicemaker.MainActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.billcreator.invoice.invoicegenerator.invoicemaker.Activity.ResetPasswordActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.billcreator.invoice.invoicegenerator.invoicemaker.Activity.PhotoUploadActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.billcreator.invoice.invoicegenerator.invoicemaker.Activity.SettingsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.billcreator.invoice.invoicegenerator.invoicemaker.Activity.InvoiceDetailsActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="com.billcreator.invoice.invoicegenerator.invoicemaker.Activity.AddPhotoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.billcreator.invoice.invoicegenerator.invoicemaker.Activity.InvoicePreviewActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="com.billcreator.invoice.invoicegenerator.invoicemaker.Activity.InvoiceInfoActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="com.billcreator.invoice.invoicegenerator.invoicemaker.Activity.AddClientActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="com.billcreator.invoice.invoicegenerator.invoicemaker.Activity.AddItemActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="com.billcreator.invoice.invoicegenerator.invoicemaker.Activity.MyItemActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="com.billcreator.invoice.invoicegenerator.invoicemaker.Activity.DiscountActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.billcreator.invoice.invoicegenerator.invoicemaker.Activity.TaxActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.billcreator.invoice.invoicegenerator.invoicemaker.Activity.ShippingInfoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.billcreator.invoice.invoicegenerator.invoicemaker.Activity.SearchItemActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.billcreator.invoice.invoicegenerator.invoicemaker.Activity.PaymentActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.billcreator.invoice.invoicegenerator.invoicemaker.Activity.AddPaymentActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.billcreator.invoice.invoicegenerator.invoicemaker.Activity.SignatureActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.billcreator.invoice.invoicegenerator.invoicemaker.Activity.PaymentOptionActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.billcreator.invoice.invoicegenerator.invoicemaker.Activity.SearchClientActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.billcreator.invoice.invoicegenerator.invoicemaker.Activity.AddLogoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.billcreator.invoice.invoicegenerator.invoicemaker.Activity.BusinessDetailsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.billcreator.invoice.invoicegenerator.invoicemaker.Activity.BusinessContactActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.billcreator.invoice.invoicegenerator.invoicemaker.utils.FilePickerActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.billcreator.invoice.invoicegenerator.invoicemaker.Activity.ClientStatementPreviewActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="com.billcreator.invoice.invoicegenerator.invoicemaker.utils.LockScreen"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateVisible" />
+
+    </application>
+</manifest>

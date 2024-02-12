@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/margin_5"
+    android:background="@drawable/et_bg_border"
+    android:elevation="@dimen/margin_5"
+    android:padding="@dimen/margin_5">
+
+    <TextView
+        android:id="@+id/item_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/margin_8"
+        android:text="Pen"
+        android:textColor="@color/black"
+        android:textSize="@dimen/margin_16" />
+
+    <TextView
+        android:id="@+id/unit_cost_quantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="@dimen/margin_10"
+        android:layout_toEndOf="@+id/item_name"
+        android:gravity="end"
+        android:text="1 * $0.00"
+        android:textColor="@color/toolbar_text" />
+
+    <TextView
+        android:id="@+id/total_cost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/unit_cost_quantity"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="@dimen/margin_10"
+        android:layout_toEndOf="@+id/item_name"
+        android:gravity="end"
+        android:text="$0.00"
+        android:textColor="@color/blue"
+        android:textSize="16sp" />
+</RelativeLayout>
